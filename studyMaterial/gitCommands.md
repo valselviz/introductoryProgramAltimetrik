@@ -22,10 +22,11 @@ comando para mostrar historial de commits
 git log
 
 comando para ver mis distintas branches
+
 git branch
 
 command to see the edited lines of code
-**git diff**
+** git diff **
 
 
 
