@@ -1,75 +1,92 @@
-## COMANDOS PARA COMMITEAR
+## COMMANDS FOR COMMITING FILES
 
-comando para inicializar repositorio git
-git init
+*command for initializing a git repository*
 
-comando para indicar que un archivo es válido y debería ser incluido en nuestro proximo commit
-git add [ubicacion/del/archivo/nombre_del_archivo]
+**git init**
 
-comando para indicar que todos los archivos en el proyecto son válidos
-git add .
+*command for tracking a file, so that git includes it in the next commit*
 
-comando para commitear (guardar el estado del proyecto o de un archivo)
-git commit
+**git add [location/file_name]**
 
+*command for tracking all files*
 
-## COMANDOS PARA REVISAR EL ESTADO DE LAS COSAS
+**git add .**
 
-comando para ver el estado del proyecto
-git status
+*command for commiting*
 
-comando para mostrar historial de commits
-git log
-
-comando para ver mis distintas branches
-
-git branch
-
-command to see the edited lines of code
-** git diff **
+**git commit**
 
 
+## COMMANDS FOR CHECKING THE STATUS OF THE REPO
 
+*command for listing the modified files*
 
-## COMANDOS PARA MANIPULAR BRANCHES
+**git status**
 
-comando para moverse a una branch
-git checkout [nombreDelBrach]
+*command for showing the commit history*
 
-comando para crear una branch
-git checkout -B [nombreDelBrach]
+**git log**
 
-comando para borrar una branch
-git checkout -D [nombreDelBrach]
+*command for listing all my branches*
 
-comando para traer a mi branch los cambios de otra branch
-git merge [nombreDeLaOtraBranch]
+**git branch**
 
+*command to see the edited lines of code*
 
-## COMANDOS PARA SINCRONIZAR CON REPOSITORIO REMOTO
-
-comando para subir mi branch
-git push
-
-commando para actualizar mi branch (descargar el ultimo estado)
-git pull
+**git diff**
 
 
 
 
-## OTROS COMANDOS DE GIT
+## COMMANDS FOR MANIPULATING BRANCHES
 
-comando para descartar archivos no commiteados en un proyecto
-git reset --hard
+*command for going to a specific branch (which loads the branch files)*
+
+**git checkout [nameOfTheBrach]**
+
+*command for creating a new branch*
+
+**git checkout -B [nameOfTheBrach]**
+
+*command for deleting a branch*
+
+**git checkout -D [nameOfTheBrach]**
+
+*command to bring into my current branch the changes made in another branch*
+**git merge [nameOfTheOtherBranch]**
+
+
+## COMMANDS FOR SYNCKING UP WITH REMOTE REPOSITORY
+
+*command for uploading branches*
+
+**git push**
+
+*command for bringing into my local branch the changes made in the remote repository*
+
+**git pull**
 
 
 
-## EDITOR DE TEXTO VI
-para entrar en el modo insercion de texto de VI
-i
 
-para salir del modo insercion de texto de VI
-esc
+## OTHER GIT COMMANDS
 
-para guardar y cerrar VI
-:wq
+*command for dismissing all not tracked files*
+
+**git reset --hard**
+
+
+
+## VI TEXT EDITOR
+
+*to enter the text insertion mode*
+
+**i**
+
+*to exit the text insertion mode*
+
+**esc**
+
+*to save and close VI*
+
+**:wq** 
